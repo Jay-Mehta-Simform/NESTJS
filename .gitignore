@@ -1,5 +1,8 @@
 .env
 
+# DB Files
+*.sqlite
+
 # compiled output
 /dist
 /node_modules

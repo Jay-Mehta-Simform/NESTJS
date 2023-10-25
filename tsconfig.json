@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "CommonJS",
         "declaration": true,
         "removeComments": true,
         "emitDecoratorMetadata": true,
@@ -13,9 +13,12 @@
         "incremental": true,
         "skipLibCheck": true,
         "strictNullChecks": false,
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "strictBindCallApply": false,
         "forceConsistentCasingInFileNames": false,
-        "noFallthroughCasesInSwitch": false
+        "noFallthroughCasesInSwitch": false,
+        "paths": {
+            "#usersService": ["./src/users/users.service"]
+        }
     }
 }
